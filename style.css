@@ -25,3 +25,24 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
+
+section{
+    flex-direction: column;
+}
+.cartão{
+    width: 200px;
+    height: 200px;
+}
+.cartão-frente{
+    background-color: darkred;
+    position: absolute;
+    border-radius: 12px;
+    border: solid 5px snow;
+}
+
+.cartão-verso{
+    background-color: darkred;
+    position: absolute;
+    border-radius: 12px;
+    border:solid  5px snow
+}
